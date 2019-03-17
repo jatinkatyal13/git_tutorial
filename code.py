@@ -1,7 +1,7 @@
-def sheldon_knock():
-  print("knock knock knock jatin")
-  print("knock knock knock jatin")
-  print("knock knock knock jatin")
+def sheldon_knock(name):
+  print("knock knock knock {}".format(name))
+  print("knock knock knock {}".format(name))
+  print("knock knock knock {}".format(name))
 
 if __name__ == "__main__":
-  sheldon_knock()
+  sheldon_knock("bipin")
